@@ -19,7 +19,8 @@ public class Ejemplo02 {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         
         Scanner entrada = new Scanner(System.in);
         
@@ -28,8 +29,8 @@ public class Ejemplo02 {
         System.out.println("Nombre ingresado es:" + nombre);
         
         System.out.println("Ingrese su apellido");
-        String apellido = entrada.nextLine()
-        System.out.println("Apellido ingresado es:" + nombre)
+        String apellido = entrada.nextLine();
+        System.out.println("Apellido ingresado es:" + apellido);
         
     }
     
